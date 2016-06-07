@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.STALKER BLACK LABEL" name="[B][COLOR white]STALKER BLACK LABEL[/COLOR][/B]" version="1.0.0" provider-name="[COLOR red]NTRX-ANTHRAX[/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver" version="0.0.1"/>
+        <import addon="script.module.requests" version="0.0.1"/>
+		<import addon="script.module.xbmcswift2" version="2.4.0"/>
+		<import addon="script.module.xbmcswift" version="0.2.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Summary</summary>
+		<description lang="en">[B][COLOR red]STALKER-BLACK LABEL[/COLOR][/B]</description>
+		<disclaimer lang="en"></disclaimer>
+		<language>En-ES</language>
+		<platform>all</platform>
+		<license></license>
+		<forum></forum>
+		<website>DEEP WEB-NTRX</website>
+		<email>NTRXXX01@GMAIL.COM</email>
+		<source>DEEP WEB-NTRX</source>
+	</extension>
+</addon>
+
+
+<addon id="repository.BLACK-LABEL" name="STALKER BLACK LABEL official Repo" version="1.0.0" provider-name="NTRX-ANTHRAX">
+	<extension point="xbmc.addon.repository" name="STALKER BLACK LABEL official Repo">
+		<info compressed="false">https://raw.githubusercontent.com/NTRXXX/MINUEVOREPO/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/NTRXXX/MINUEVOREPO/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/NTRXXX/MINUEVOREPO/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>STALKER BLACK LABEL official Repo</summary>
+   		<description lang="en">BLACK LABEL.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
