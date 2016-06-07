@@ -26,7 +26,7 @@
 </addon>
 
 
-<addon id="repository.BLACK-LABEL" name="STALKER BLACK LABEL official Repo" version="1.0.0" provider-name="NTRX-ANTHRAX">
+<addon id="repository.blacklabel" name="blacklabel official Repo" version="1.0.0" provider-name="NTRX-ANTHRAX">
 	<extension point="xbmc.addon.repository" name="STALKER BLACK LABEL official Repo">
 		<info compressed="false">https://raw.githubusercontent.com/NTRXXX/MINUEVOREPO/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/NTRXXX/MINUEVOREPO/master/addons.xml.md5</checksum>
